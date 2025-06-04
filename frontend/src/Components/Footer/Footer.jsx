@@ -4,6 +4,7 @@ import footer_logo from '../Assets/Logo_Poster.png';
 import google_icon from '../Assets/google_icon.png';
 import instagram_icon from '../Assets/instagram_icon.png';
 import whatsapp_icon from '../Assets/whatsapp_icon.png';
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
@@ -20,13 +21,13 @@ export const Footer = () => {
         </ul>
         <div className="footer-social-icon">
             <div className="footer-icons-container">
-                <img src={instagram_icon} alt="Instagram" />
+                <Link to={'https://www.instagram.com/the_gifting_tree0/'} target='_blank'><img src={instagram_icon} alt="Instagram" /></Link>
             </div>
             <div className="footer-icons-container">
-                <img src={google_icon} alt="google" />
+                <Link to={'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox'} target='_blank'><img src={google_icon} alt="google" /></Link>
             </div>
             <div className="footer-icons-container">
-                <img src={whatsapp_icon} alt="whatsapp" />
+                <Link to={'https://web.whatsapp.com/'} target='_blank' ><img src={whatsapp_icon} alt="whatsapp" /></Link>
             </div>
         </div>
         <div className="footer-copyright">

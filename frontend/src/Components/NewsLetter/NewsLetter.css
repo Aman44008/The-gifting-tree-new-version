@@ -8,7 +8,7 @@
     margin: auto;
     padding: 50px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    background: linear-gradient(180deg, #d2c7f5 0%, #e1ffea22 60%);
     gap: 30px;
 }
 
@@ -52,6 +52,10 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
+}
+
+.message{
+    font-size: 20px;
 }
 
 @media(max-width:1280px){

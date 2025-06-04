@@ -5,7 +5,7 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    background: linear-gradient(180deg, #d2c7f5 0%, #e1ffea22 60%);
 }
 
 .offers-left{
@@ -32,7 +32,7 @@
     width: 282px;
     height: 70px;
     border-radius: 35px;
-    background: #ff4141;
+    background: #4441ff;
     border: none;
     color: white;
     font-size: 22px;

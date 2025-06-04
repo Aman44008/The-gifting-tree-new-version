@@ -30,7 +30,7 @@ export const LoginSignup = () => {
       localStorage.setItem('auth-token',responseData.token);
       window.location.replace("/");
     }else{
-      alert(responseData.console.errors)
+      alert(responseData?.errors)
     }
   }
 
@@ -50,7 +50,8 @@ export const LoginSignup = () => {
       localStorage.setItem('auth-token',responseData.token);
       window.location.replace("/");
     }else{
-      alert(responseData.console.errors)
+      console.log(responseData.errors)
+      alert(responseData?.errors)
     }
   }
 

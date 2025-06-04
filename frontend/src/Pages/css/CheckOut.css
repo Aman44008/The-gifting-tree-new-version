@@ -1,0 +1,87 @@
+.add-product{
+    box-sizing: border-box;
+    /* width: 100%; */
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: white;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.line1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 16px;
+}
+.line1 input{
+    box-sizing: border-box;
+    width: 45%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    color: #7b7b7b;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.address{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.address input{
+    box-sizing: border-box;
+    width: 92%;
+    height: 70px;
+    margin: 10px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    color: #7b7b7b;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.addproduct-itemfield{
+    margin-left: 40px;
+}
+
+.addproduct-thumnail-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin: 10px 0px;
+}
+.addproduct-btn{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 160px;
+    height: 60px;
+    border-radius: 6px;
+    background: #6079ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+@media(max-width:800px){
+    .add-product{
+        width: auto;
+        padding: 30px;
+        margin: 20px;
+    }
+}

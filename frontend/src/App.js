@@ -8,8 +8,9 @@ import { Cart } from './Pages/Cart';
 import { LoginSignup } from './Pages/LoginSignup';
 import { Footer } from './Components/Footer/Footer';
 import gift_banner from './Components/Assets/gift_banner.avif';
-import decoration_banner from './Components/Assets/decoration_banner.webp';
-import logo_banner from './Components/Assets/logo_banner.png'
+import decoration_banner from './Components/Assets/decoration_banner.jpg';
+import logo_banner from './Components/Assets/logo_banner.jpg'
+import { CheckOut } from './Pages/CheckOut';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           </Route>
           <Route path='/cart' element={<Cart/>} />
           <Route path='/login' element={<LoginSignup/>} />
+          <Route path='/checkout' element={<CheckOut/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>
